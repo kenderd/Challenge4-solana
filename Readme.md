@@ -6,7 +6,6 @@ functions that actually create the transactions were segmented from the Create.t
 It was later then imported to Create.tsx to consolidate everything, if I'm not mistaken. I observed the transactions having to pass through three files coming initially from create-transaction-worker-script.ts. Im honestly unfamiliar with the ways in this, but I infer that these "workers" and "providers" are components of the development architecture in this context.
 
 I also don't know typescript and thanks to Metacrafters for giving me the opportunity to dip in it for the first time.
-I heard that it's an object oriented language tho, so I think what's been happening is just a matter of inheriting classes
 
 Break also utilizes blockhash and if I'm not mistaken, hello world doesnt. I remember Isabel mentioned that incorporating blockhash brings in
 more security.
